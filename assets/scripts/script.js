@@ -86,6 +86,7 @@ const App = (() => {
       quiz.currentIndex = 0;
       progressEl.style.width = `0`;
       instructionEl.innerHTML = `Pick an option below!`;
+      nextButtonEl.style.display = `block`;
       renderAll();
     });
   }
